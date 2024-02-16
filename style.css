@@ -1,0 +1,174 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@800&family=Lilita+One&family=Protest+Strike&family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&family=Ubuntu&display=swap');
+:root{
+    --cor-um: #04080F;
+    --cor-dois:#131F41;
+    --cor-tres: #1A1F29;
+    --cor-quarto:#455CA8;
+    --fonte-um: "Roboto", sans-serif;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik{
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-um);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 100vh;
+
+}
+main{
+    height: 80%;
+    width: 70%;
+    margin: 5% 5%;
+}
+a{
+    transition: 0.5s ease-in-out;
+}
+a:hover{
+    transform: scale(1.1);
+}
+/*PARTE CIMA*/
+#logo{
+    
+}
+#cabecalho{
+    display: flex;
+    height: 15%;
+    background-color: var(--cor-um);
+    justify-content: space-between;
+}
+#img_marca{
+    height: 44px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 46px;
+}
+#menu{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    margin-top: 38px;
+    margin-right: 88px;
+}
+#marca{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+
+}
+.texto{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Rubik", sans-serif;
+}
+/*PARTE DO MEIO*/
+#main_principal{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--cor-um) 50%, #0c172c , var(--cor-dois));
+}
+#img_cartao{
+    width: 100%;
+    height: 130%;
+    
+}
+#main_div_esquerda{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    gap: 70px;
+    height: 90%;
+    
+}
+#frase_esquerda_main_principal{
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 3.625rem;
+    font-weight: 600;
+    letter-spacing:4px;
+    width: 70%;
+}
+#div_secundaria_esquerda_baixo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+#botao_comece_ja{
+    display: flex;
+    background-color: var(--cor-tres);
+    padding: 24px;
+    box-shadow: var(--cor-um) 10px 15px 20px;
+    border:var(--cor-tres) 2px solid;
+    border-radius: 6px;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#botao_comece_ja:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#frase_div_secundaria_esquerda_baixo{
+    width: 40%;
+
+}
+#main_div_direita{
+    display: flex;
+    width: 50%;
+    margin-right: 8%;
+}
+/*PARTE DE BAIXO*/
+#rodape{
+    display: flex;
+    background: radial-gradient(circle, var(--cor-quarto) 10% , var(--cor-tres) 80% );
+    height: 25%;
+}
+#rodape_div_esquerda{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10%;
+}
+.dados_estastisticos{
+    color: white;
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;
+}
+#rodape_div_direita{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto_dados_estastisticos{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 30%;
+}
